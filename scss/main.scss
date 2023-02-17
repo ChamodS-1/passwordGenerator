@@ -1,0 +1,100 @@
+@import './colors';
+
+body{
+    margin: 0;
+    font-family:'Lato', sans-serif;
+    color: $primary;
+}
+
+
+
+.mainpage{
+
+    background: linear-gradient(40deg,$secondary1, $secondary2);
+    width: fit-content;
+    padding: 1.8rem 2.5rem;
+    border-radius: 20px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+
+    #range-number{
+
+        
+        margin-bottom: 5px;
+        margin-left: 5px;
+        padding: 0.4rem 0.7rem;
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+        background: linear-gradient(60deg,$secondary7, $secondary8);
+    }
+
+    .topic{
+
+        background: linear-gradient(40deg,$secondary3, $secondary4);
+        width: fit-content;
+        padding: 0.6rem 1.2rem;
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+
+
+        h2,h3{
+            margin: 0;
+        }
+        
+
+    }
+
+    .buttons{
+
+        
+        width:fit-content;
+        margin: 1rem auto 0 auto;
+        
+
+        .but1{
+            display: block;
+            margin: 0;
+            padding: 0.5rem 2.2rem;
+            border: none;
+            background: linear-gradient(60deg,$secondary5, $secondary6);
+            color: $primary;
+            font-family: inherit;
+            font-size: 1.3rem;
+            font-weight: 600;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+
+            &:hover{
+
+                background: linear-gradient(60deg,$secondary7, $secondary8);
+               
+            }
+
+            &:active{
+
+                background: linear-gradient(60deg,$secondary9, $secondary10);
+               
+            }
+            
+
+          
+
+            
+        }
+    }
+
+   
+   
+    
+    .range{
+        width: 300px;
+    }
+    
+    h1{
+    
+        font-weight: 900;
+        margin-bottom: 0;
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+}

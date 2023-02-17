@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: rgb(237, 237, 237);
+}
+
+.mainpage {
+  background: linear-gradient(40deg, rgb(251, 66, 118), rgb(255, 123, 163));
+  width: fit-content;
+  padding: 1.8rem 2.5rem;
+  border-radius: 20px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.mainpage #range-number {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding: 0.4rem 0.7rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(60deg, rgb(177, 32, 255), rgb(188, 120, 255));
+}
+.mainpage .topic {
+  background: linear-gradient(40deg, rgb(253, 165, 34), rgb(255, 193, 77));
+  width: fit-content;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.mainpage .topic h2, .mainpage .topic h3 {
+  margin: 0;
+}
+.mainpage .buttons {
+  width: fit-content;
+  margin: 1rem auto 0 auto;
+}
+.mainpage .buttons .but1 {
+  display: block;
+  margin: 0;
+  padding: 0.5rem 2.2rem;
+  border: none;
+  background: linear-gradient(60deg, rgb(32, 155, 255), rgb(97, 182, 251));
+  color: rgb(237, 237, 237);
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.mainpage .buttons .but1:hover {
+  background: linear-gradient(60deg, rgb(177, 32, 255), rgb(188, 120, 255));
+}
+.mainpage .buttons .but1:active {
+  background: linear-gradient(60deg, rgb(255, 32, 117), rgb(255, 120, 179));
+}
+.mainpage .range {
+  width: 300px;
+}
+.mainpage h1 {
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-size: 3rem;
+}/*# sourceMappingURL=main.css.map */

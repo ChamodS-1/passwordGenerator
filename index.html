@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="mainpage">
+
+        <div class="topic">
+            <h3>password</h3>
+            <h2>Generator</h2>
+
+        </div>
+
+        <div class="second-main">
+            <h1>PASSWORD</h1>
+
+            <input type="range" max="10" min="2" class="range" step="1">
+            <label for="" id="range-number">7</label>
+            <br>
+
+            <input type="checkbox" id="capitalLetters" value="capital" class="input">
+            <label for="capital">Capital</label>
+
+            <input type="checkbox" value="special" id="specialCharactors" class="input">
+            <label for="special">Special Char</label>
+
+            <input type="checkbox" value="simple" id="simpleLetters" class="input">
+            <label for="simple">Simple</label>
+
+            <input type="checkbox" value="simple" id="numbersOnly" class="input">
+            <label for="numbers">Numbers</label>
+
+            <div class="buttons">
+                <button type="button" class="but1">Generator</button>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
